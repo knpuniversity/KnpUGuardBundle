@@ -6,7 +6,7 @@
 
     <services>
         <service id="security.authentication.guard_handler"
-                 class="KnpU\GuardBundle\Guard\GuardAuthenticatorHandler"
+                 class="KnpU\Guard\GuardAuthenticatorHandler"
             >
             <argument type="service" id="security.token_storage" />
             <argument type="service" id="event_dispatcher" on-invalid="null" />
@@ -14,7 +14,7 @@
 
         <!-- See GuardAuthenticationFactory -->
         <service id="security.authentication.provider.guard"
-                 class="KnpU\GuardBundle\Guard\Provider\GuardAuthenticationProvider"
+                 class="KnpU\Guard\Provider\GuardAuthenticationProvider"
                  abstract="true"
                  public="false"
             >
@@ -25,7 +25,7 @@
         </service>
 
         <service id="security.authentication.listener.guard"
-                 class="KnpU\GuardBundle\Guard\Firewall\GuardAuthenticationListener"
+                 class="KnpU\Guard\Firewall\GuardAuthenticationListener"
                  public="false"
                  abstract="true"
             >
