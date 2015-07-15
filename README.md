@@ -115,7 +115,7 @@ security:
                     - app.token_authenticator
                 # provider: main_provider
 
-                # since you have 2 firewalls, you'll choose which "start"
+                # since you have 2 authenticators, you'll choose which "start"
                 # method is called when the user should be asked to login
                 # entry_point: app.token_authenticator
                 entry_point: app.form_login_authenticator
