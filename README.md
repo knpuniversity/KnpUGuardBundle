@@ -22,15 +22,15 @@ composer require knpuniversity/guard-bundle:dev-master
 Next, plug the bundle into your `app/AppKernel.php` file:
 
 ```php
-    public function registerBundles()
-    {
-        $bundles = array(
-            // -> add just this ONE line
-            new KnpU\GuardBundle\KnpUGuardBundle(),
-        );
+public function registerBundles()
+{
+    $bundles = array(
+        // -> add just this ONE line
+        new KnpU\GuardBundle\KnpUGuardBundle(),
+    );
 
-        // ...
-    }
+    // ...
+}
 ```
 
 Now, start using it!
