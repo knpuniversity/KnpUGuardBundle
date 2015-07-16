@@ -1,4 +1,4 @@
-# KnpGuardPlugin
+# KnpGuardBundle
 
 Add simple and beautiful authentication to your Symfony project.
 
