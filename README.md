@@ -24,8 +24,8 @@ about how you want to authenticate your users. And authenticator implements
 
 Here are some real-world examples from the tutorial:
 
-Goal                                        | Code                                                                                                                                      | Tutorial
-------------------------------------------- | ----------------------------------------------------------------------------------------------------------------------------------------- | -------
+Goal                                        | Code                                                                                                                                          | Tutorial
+------------------------------------------- | --------------------------------------------------------------------------------------------------------------------------------------------- | -------
 Authenticate by reading an `X-TOKEN` header | [ApiTokenAuthenticator.php](https://github.com/knpuniversity/guard-tutorial/blob/finished/src/AppBundle/Security/ApiTokenAuthenticator.php)   | [How to Authenticate via an API Token](https://knpuniversity.com/screencast/guard/api-token)
 Form login authentication                   | [FormLoginAuthenticator.php](https://github.com/knpuniversity/guard-tutorial/blob/finished/src/AppBundle/Security/FormLoginAuthenticator.php) | [How to Create a Login Form](https://knpuniversity.com/screencast/guard/login-form)
 Social Login (Facebook)                     | [FacebookAuthenticator.php](https://github.com/knpuniversity/guard-tutorial/blob/finished/src/AppBundle/Security/FacebookAuthenticator.php)   | [Social Login with Facebook](https://knpuniversity.com/screencast/guard/social-login)
