@@ -32,8 +32,8 @@ Social Login (Facebook)                     | [FacebookAuthenticator](https://gi
 
 ## Contributing
 
-Find a bug or a use-case that this doesn't support? [Open an Issue]() so we can make
-things better.
+Find a bug or a use-case that this doesn't support? [Open an Issue](https://github.com/knpuniversity/KnpUGuardBundle/issues)
+so we can make things better.
 
 ## License
 
