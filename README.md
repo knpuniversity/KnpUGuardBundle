@@ -20,7 +20,7 @@ But here's the basic idea.
 
 Guard works by creating a single class - an **authenticator** - that handles *everything*
 about how you want to authenticate your users. And authenticator implements
-[KnpU\GuardBundle\Guard\GuardAuthenticatorInterface](https://github.com/knpuniversity/KnpUGuard/blob/master/src/GuardAuthenticatorInterface.php))
+[KnpU\Guard\GuardAuthenticatorInterface](https://github.com/knpuniversity/KnpUGuard/blob/master/src/GuardAuthenticatorInterface.php))
 
 Here are some real-world examples from the tutorial:
 
