@@ -5,6 +5,7 @@ php:
   - 5.4
   - 5.5
   - 5.6
+  - 7.0
   - hhvm
 
 branches:
@@ -22,11 +23,14 @@ matrix:
       env: SYMFONY_VERSION=2.6.*
     - php: 5.5
       env: SYMFONY_VERSION='2.7.*@dev'
-
-script: phpunit
+  allow_failures:
+    - 7.0
 
 before_script:
   - composer self-update
   - if [ "$SYMFONY_VERSION" != "" ]; then composer require --dev --no-update symfony/symfony=$SYMFONY_VERSION; fi
   - if [ "$deps" = "low" ]; then composer update --prefer-lowest; fi
   - if [ "$deps" != "low" ]; then composer update --prefer-source; fi
+
+script:
+  - phpunit
