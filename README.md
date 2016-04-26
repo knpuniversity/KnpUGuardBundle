@@ -126,7 +126,7 @@ class FormLoginAuthenticator extends AbstractFormLoginAuthenticator
 
 Now:
 ```php
-use Symfony\Component\Security\Guard\AbstractFormLoginAuthenticator;
+use Symfony\Component\Security\Guard\Authenticator\AbstractFormLoginAuthenticator;
 use Symfony\Component\Security\Guard\...;
 // ...
 
